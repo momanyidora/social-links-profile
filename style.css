@@ -22,7 +22,7 @@ body{
     padding: 2.5rem;
     border-radius: 12px;
     text-align: center;
-    width: (90%, 320px);
+    width: (90%, 20rem);
 
 
 }
@@ -63,7 +63,7 @@ font-weight: 600;
 
 @media (prefers-reduced-motion: reduce) {
     * {
-        transition: none !important;
+        transition: none;
     } }
 .links a:hover{
     background-color: hsl(75, 94%, 57%);
