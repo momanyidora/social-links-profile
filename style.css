@@ -22,15 +22,15 @@ body{
     padding: 2.5rem;
     border-radius: 12px;
     text-align: center;
-    width: 320px;
-    max-width: 90%;
+    width: (90%, 320px);
+
 
 }
 
 .card img{
     width: 90px;
     border-radius: 50%;
-    margin-bottom: 1.5rem;
+    margin-block-end: 1.5rem;
 }
 
 .location{
@@ -57,10 +57,14 @@ font-weight: 600;
     padding: 0.9rem;
     border-radius: 8px;
     font-weight: 700;
-    transition: 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
     display: block;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    } }
 .links a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
