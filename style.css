@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: hsl(0, 0%, 8%);
     color: white;
     min-height: 100vh;
@@ -18,11 +18,12 @@ body{
 }
 
 .card{
-    background-color: hsl(0, 0%, 8%);
-    padding: 2rem;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2.5rem;
     border-radius: 12px;
     text-align: center;
     width: 320px;
+    max-width: 90%;
 
 }
 
@@ -51,17 +52,18 @@ font-weight: 600;
 
 .links a{
     text-decoration: none;
-    background-color: hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 20%);
     color: white;
     padding: 0.9rem;
     border-radius: 8px;
     font-weight: 700;
     transition: 0.3s;
+    display: block;
 }
 
 .links a:hover{
     background-color: hsl(75, 94%, 57%);
-    color: black;
+    color: hsl(0, 0%, 8%);
 }
 
 .attribution{
