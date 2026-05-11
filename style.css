@@ -61,10 +61,6 @@ font-weight: 600;
     display: block;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    * {
-        transition: none;
-    } }
 .links a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
