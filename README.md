@@ -42,18 +42,18 @@ While building this project, I practiced creating responsive card layouts using 
 One section I’m proud of is styling interactive buttons consistently:
 
 .social-link {
-  display: block;
-  padding: 12px;
-  border-radius: 8px;
-  background-color: hsl(0, 0%, 20%);
-  text-align: center;
-  transition: background-color 0.3s ease;
+display: block;
+padding: 12px;
+border-radius: 8px;
+background-color: hsl(0, 0%, 20%);
+text-align: center;
+transition: background-color 0.3s ease;
 }
 
 .social-link:hover,
 .social-link:focus {
-  background-color: hsl(75, 94%, 57%);
-  color: black;
+background-color: hsl(75, 94%, 57%);
+color: black;
 }
 
 I also learned how to structure a clean and accessible HTML layout.
@@ -73,33 +73,11 @@ CSS positioning and spacing
 Writing cleaner and more reusable CSS
 Useful Resources
 MDN Web Docs
- — Helped me understand Flexbox and accessibility concepts.
+— Helped me understand Flexbox and accessibility concepts.
 CSS Tricks Flexbox Guide
- — Very useful for learning Flexbox layouts.
+— Very useful for learning Flexbox layouts.
 Frontend Mentor
- — Great platform for practicing real-world front-end projects.
-AI Collaboration
-
-During this project, I used AI tools to support my learning and development process.
-
-Tools Used
-Google Gemini
-ChatGPT
-
-How I Used Them
-Debugging CSS issues
-Understanding Flexbox concepts
-Improving semantic HTML structure
-Learning Git and GitHub workflow
-Getting explanations for responsive design techniques
-What Worked Well
-Quick explanations of coding concepts
-Help with debugging errors
-Suggestions for improving code structure
-Challenges
-Sometimes AI-generated solutions needed adjustments to fit my project structure
-I still needed to test and understand the code myself
-
+— Great platform for practicing real-world front-end projects.
 
 Author
 Name - Dorah Whali
